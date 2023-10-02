@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<libreria>
+        <libro>
+              <titulo> Hábitos Atómicos</titulo>
+              <autor> James Clear</autor>
+              <editorial> Diana</editorial>
+        </libro>
+        <libro>
+              <titulo> El monje que vendió su ferrari</titulo>
+              <autor> Robin Sharma</autor>
+              <editorial> Clave</editorial>
+        </libro>
+       <libro>
+              <titulo> Los 7 Hábitos de la gente altamente efectiva</titulo>
+              <autor> Stephen Covey</autor>
+              <editorial> Booket</editorial>
+        </libro>        
+</libreria>

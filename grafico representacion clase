@@ -1,0 +1,12 @@
+<svg width="120" height="120" version="1.1">
+  <g stroke="black" stroke-width="1px" fill="white">
+ <rect width="120" height="30" stroke="black" stroke-width="4" fill="white"/>
+ <text x="50%" y="15%" font-weight="bold" alignment-baseline="middle" text-anchor="middle" fill="black" stroke="none">Iterador</text>
+ <rect x="0" y="30" width="120" height="10" stroke="black" stroke-width="4" fill="white"/>
+ <rect x="0" y="40" width="120" height="80" stroke="black" stroke-width="4" fill="white"/>
+ <text x="40%" y="47%" font-weight="normal" font-style="italic" alignment-baseline="middle" text-anchor="middle" fill="black" stroke="none">+Primero()</text>
+ <text x="45%" y="62%" font-weight="normal" font-style="italic" alignment-baseline="middle" text-anchor="middle" fill="black" stroke="none">+Siguiente()</text>
+ <text x="30%" y="77%" font-weight="normal" font-style="italic" alignment-baseline="middle" text-anchor="middle" fill="black" stroke="none">+Final()</text>
+ <text x="35%" y="91%" font-weight="normal" font-style="italic" alignment-baseline="middle" text-anchor="middle" fill="black" stroke="none">+Actual()</text>
+ </g>
+</svg>
