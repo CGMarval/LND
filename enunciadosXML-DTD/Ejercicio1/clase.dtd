@@ -1,0 +1,10 @@
+
+<!ELEMENT clases (clase)+>
+<!ELEMENT clase (profesor+,(alumno|alumna )+)>
+<!ELEMENT profesor (nombre, apellidos*)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+
+<!ELEMENT alumno (nombre,apellidos)>
+<!ELEMENT alumna (nombre,apellidos)>
+

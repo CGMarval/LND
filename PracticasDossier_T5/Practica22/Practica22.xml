@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE Mensaje [
+
+<!ELEMENT Mensaje (autor, destinatario+, asunto, firma?)>
+
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT destinatario (#PCDATA)>
+<!ELEMENT asunto (#PCDATA)>
+<!ELEMENT firma (nombre, curso)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT curso (#PCDATA)>
+
+
+<!ENTITY yo "Cleyber Esteban Garcia Marval">
+
+<!ENTITY curso "Primero de Desarrollo de Aplicaciones Multiplataforma">
+]>
+<Mensaje>
+	<autor></autor>
+	<destinatario></destinatario>
+	<asunto> Esto es un ejemplo del asunto </asunto>
+	<firma>
+		<nombre>&yo;</nombre>
+		<curso>&curso;</curso>
+	</firma>
+</Mensaje>

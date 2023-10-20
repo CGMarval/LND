@@ -1,0 +1,40 @@
+- Realiza una DTD apropiada para representar el siguiente
+documento xml:
+LENGUAJES DE MARCAS Y SISTEMAS DE GESTIÓN DE INFORMACIÓN
+<?xml version="1.0" encoding="utf-8" ?>
+<Agenda>
+<Persona>
+<Nombre> Eva </Nombre>
+<Apellido> Lopez </Apellido>
+<Email> evalopez@minik.org </Email>
+<Oficina> 2.1 B18 </Oficina>
+<Telefono> 5555555 </Telefono>
+<Movil> 5557777 </Movil>
+</Persona>
+</Agenda>
+
+Solución: Se ha creado una DTD interna quedando el ejercicio de la siguiente manera
+
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE Agenda [
+<!ELEMENT Agenda (Persona)>
+<!ELEMENT Persona (Nombre, Apellido, Email, Oficina, Telefono, Movil)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Apellido (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Oficina (#PCDATA)>
+<!ELEMENT Telefono (#PCDATA)>
+<!ELEMENT Movil (#PCDATA)>
+]>
+
+<Agenda>
+	<Persona>
+		<Nombre> Eva </Nombre>
+		<Apellido> Lopez </Apellido>
+		<Email> evalopez@minik.org </Email>
+		<Oficina> 2.1 B18 </Oficina>
+		<Telefono> 5555555 </Telefono>
+		<Movil> 5557777 </Movil>
+	</Persona>
+</Agenda>

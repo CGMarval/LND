@@ -1,0 +1,2 @@
+Solución: Sólo son válidos el documento 3 y el 4. Podemos tener DNI o nombre,
+pero no los dos a la vez.

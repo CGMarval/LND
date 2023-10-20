@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Alumno  SYSTEM "/home/esteban/LND/PracticasDossier_T5/AlumnoP9.dtd">
+
+<Alumno>
+	<DNI>78645534H</DNI>
+	<DNI>44312211F</DNI>
+</Alumno>

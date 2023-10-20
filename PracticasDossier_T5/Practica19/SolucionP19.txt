@@ -1,0 +1,9 @@
+Comenta con tus propias palabras qué se define en el siguiente
+extracto de una DTD:
+<!ATTLIST curso
+director CDATA #REQUIRED
+horario (mañana | tarde | noche) #IMPLIED
+matricula (ordinaria | extraordinaria) “Ordinaria”
+tasas CDATA #FIXED “53€”>
+
+Solución: La DTD define que la entidad curso tendrá un atributo "director" el cual será obligatorio introducir para todos los cursos. tendrá además un atributo "horario" que tendrá sólo uno de estos tres valores (mañana, tarde, noche) y este es de caracter opcional, lo que quiere decir que puede aparecer o no en cada etiqueta de curso. luego tenemos el atributo "matricula" que tendrá uno de los siguientes dos valores (ordinaria, extraordinaria) y en caso de que no sea especificado o introducido, tomará por defecto el valor de ordinaria. y por último tendrá el atributo "tasas" el cual será siempre un atributo fijo, se especifique o no, y este siempre tendrá un valor de 53€

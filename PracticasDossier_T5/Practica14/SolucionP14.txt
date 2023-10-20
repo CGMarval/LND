@@ -1,0 +1,41 @@
+Sea el siguiente DTD:
+<!ELEMENT XXX (AAA? , BBB+)>
+<!ELEMENT AAA (CCC? , DDD*)>
+<!ELEMENT BBB (CCC , DDD)>
+<!ELEMENT CCC (#PCDATA)>
+<!ELEMENT DDD (#PCDATA)>
+¿Es válido el siguiente documento?
+<!DOCTYPE XXX SYSTEM "XXX.dtd">
+<XXX>
+<AAA>
+<CCC/><DDD/>
+</AAA>
+<BBB>
+<CCC/><DDD/>
+</BBB>
+</XXX>
+Solución: sí.
+
+¿Cuál de los elemento AAA ó BBB no es obligatorio?.
+Solución: el elemento AAA no es obligatorio (?)
+
+¿Y el siguiente documento xml será válido?
+<!DOCTYPE XXX SYSTEM "XXX.dtd">
+<XXX>
+<AAA/>
+<BBB>
+<CCC/><DDD/>
+</BBB>
+</XXX>
+Solución: sí.
+
+¿Y este otro documento xml?
+<!DOCTYPE XXX SYSTEM "tutorial.dtd">
+<XXX>
+<AAA/><AAA/>
+<BBB>
+<CCC/><DDD/>
+</BBB>
+</XXX>
+Solución: no puede leer tutorial.dtd porque no existe. se trata de una errata.
+ahora, corrigiendo el nombre de la DTD a XXX.dtd, entonces no es válido, el AAA sólo puede aparecer cero o una vez.

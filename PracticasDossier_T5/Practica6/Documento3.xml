@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Alumno  SYSTEM "/home/esteban/LND/PracticasDossier_T5/Alumno.dtd">
+
+<Alumno>
+	<Nombre>Eva Murillo</Nombre>
+	<Nombre>Juan Ruiz </Nombre>
+</Alumno>

@@ -1,0 +1,1 @@
+Solución: Si, el documento es válido, ya que desde la dtd se define que el elemento AAA debe existir por lo menos una vez o más y que este debe estar vacío.

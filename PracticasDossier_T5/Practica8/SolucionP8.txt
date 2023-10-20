@@ -1,0 +1,1 @@
+Solución: Sólo son válidos el 1, 3 y 4. El asterisco (*) en el elemento hermano de la DTD AlumnoP8 indica que puede no aparecer, aparecer una vez o aparecer muchas veces.

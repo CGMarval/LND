@@ -1,0 +1,5 @@
+Agrega al primer libro dos etiquetas autor. Vuelve a validar.
+¿Dónde se produce el fallo?
+
+Solución:
+El fallo ocurre en el primer elemento libro, ya que en su estructura contiene dos elementos autor, y en la estructura de libro solo esta declarado para contener un elemento autor(por cada libro).

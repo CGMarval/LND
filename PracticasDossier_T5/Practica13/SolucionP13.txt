@@ -1,0 +1,1 @@
+Solución: todos válidos menos el 2 y el 4.

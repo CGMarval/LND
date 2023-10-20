@@ -1,0 +1,5 @@
+
+<!ELEMENT Alumnos (Dni | Nombre)+>
+<!ELEMENT Dni (#PCDATA)>
+<!ELEMENT Nombre (#PCDATA)>
+

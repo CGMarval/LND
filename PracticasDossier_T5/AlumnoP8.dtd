@@ -1,0 +1,4 @@
+
+<!ELEMENT Alumno (Nombre, Hermano*)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Hermano (#PCDATA)>

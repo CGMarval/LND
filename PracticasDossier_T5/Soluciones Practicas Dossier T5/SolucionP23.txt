@@ -1,0 +1,47 @@
+Sea la siguiente DTD:
+
+<!ENTITY % contacto “direccion, telefono”>
+<!ELEMENT alumno (nombre, %contacto;)>
+<!ELEMENT centro (denominacion, %contacto;)>
+1o.- Termina de definir la DTD.
+2o.- Crea un documento XML con dos alumnos y un centro.
+
+Solucion:
+
+DTD terminada:
+
+<!ENTITY % contacto "direccion, telefono">
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT Alumnado (alumno+, centro)>
+<!ELEMENT alumno (nombre, %contacto;)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT centro (denominacion, %contacto;)>
+<!ELEMENT denominacion (#PCDATA)>
+
+
+Documento xml:
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE Alumnado SYSTEM "contacto.dtd">
+<Alumnado>
+	<alumno>
+		<nombre> Jose Luís Pérez García</nombre>
+		<direccion>C/ Dr Pérez Díaz, La Victoria de Acentejo</direccion>
+		<telefono>666 777 8888</telefono>
+	</alumno>
+	<alumno>
+		<nombre>Jose Manuel Núñez González</nombre>
+		<direccion>Av Las Palmeras, Santa Úrsula</direccion>
+		<telefono>678 890 123</telefono>
+	</alumno>
+	<centro>
+		<denominacion>IES. Puerto de La Cruz</denominacion>
+		<direccion>C. las Cabezas, 7, 38400 Puerto de la Cruz, Santa Cruz de Tenerife</direccion>
+		<telefono>922 38 01 12</telefono>
+	</centro>
+	
+</Alumnado>
+
+

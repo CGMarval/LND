@@ -1,0 +1,4 @@
+
+<!ELEMENT XXX (AAA+)>
+<!ELEMENT AAA EMPTY>
+

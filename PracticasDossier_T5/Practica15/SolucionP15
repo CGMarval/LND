@@ -1,0 +1,30 @@
+Sea el siguiente DTD:
+<!ELEMENT XXX (AAA+ , BBB+)>
+<!ELEMENT AAA (BBB | CCC )>
+<!ELEMENT BBB (#PCDATA | CCC )*>
+<!ELEMENT CCC (#PCDATA)>
+
+¿Será válido este documento?
+<!DOCTYPE XXX SYSTEM "tutorial.dtd">
+<XXX>
+<AAA>
+<CCC>Exactamente un elemento.</CCC>
+</AAA>
+<AAA>
+<BBB>
+<CCC/>
+<CCC/>
+<CCC/>
+</BBB>
+</AAA>
+<BBB/>
+<BBB>
+Esta es <CCC/> una combinación <CCC/> de <CCC> elementos CCC
+</CCC> y texto <CCC/>.
+</BBB>
+<BBB>
+Sólo texto.
+</BBB>
+</XXX>
+
+Solución: Si, pero sería mucho más fácil de interpretar si estructura respetando la identación

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE Alumnado SYSTEM "contacto.dtd">
+<Alumnado>
+	<alumno>
+		<nombre> Jose Luís Pérez García</nombre>
+		<direccion>C/ Dr Pérez Díaz, La Victoria de Acentejo</direccion>
+		<telefono>666 777 8888</telefono>
+	</alumno>
+	<alumno>
+		<nombre>Jose Manuel Núñez González</nombre>
+		<direccion>Av Las Palmeras, Santa Úrsula</direccion>
+		<telefono>678 890 123</telefono>
+	</alumno>
+	<centro>
+		<denominacion>IES. Puerto de La Cruz</denominacion>
+		<direccion>C. las Cabezas, 7, 38400 Puerto de la Cruz, Santa Cruz de Tenerife</direccion>
+		<telefono>922 38 01 12</telefono>
+	</centro>
+	
+</Alumnado>

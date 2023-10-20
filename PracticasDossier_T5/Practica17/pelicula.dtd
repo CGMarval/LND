@@ -1,0 +1,9 @@
+
+1.- <!ELEMENT LIBRO (Autor, Editorial)>
+2.- <!ELEMENT Autor (#PCDATA)>
+3.- <!ELEMENT PELICULA (Actor|Actriz|Director)+>
+4.- <!ELEMENT PELICULA ((Actor | Actriz)*, Director, Maquillaje?)>
+5.- <!ELEMENT PELICULA (#PCDATA | Actor)*>
+6.- <!ELEMENT PELICULA (Titulo, Genero, (Actor | Actriz | Narrador)*)>
+7.- <!ELEMENT FICHA (Nombre+, Apellido+, Direccion*, foto?,
+TelFijo*|TelMovil*)

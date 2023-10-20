@@ -1,30 +1,45 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+Modifica el fichero de la práctica 01 para que el elemento
+libro soporte un atributo llamado “categoría”.
+Crea un libro en la categoría de cocina, otro en la categoría de novela y dos en la
+categoría de programación.
+Vuelve a chequear que el documento xml es válido.
+
+Solución:
+Es válido
+
+<?xml version="1.0" ?>
 <libreria>
         <libro>
               <titulo> Hábitos Atómicos</titulo>
               <autor> James Clear</autor>
               <editorial> Diana</editorial>
         </libro>
+        
         <libro>
               <titulo> El monje que vendió su ferrari</titulo>
               <autor> Robin Sharma</autor>
               <editorial> Clave</editorial>
         </libro>
+        
        <libro>
               <titulo> Los 7 Hábitos de la gente altamente efectiva</titulo>
               <autor> Stephen Covey</autor>
               <editorial> Booket</editorial>
         </libro>
+        
+        
           <libro categoria="Cocina">
               <titulo> Cocina para disfrutones</titulo>
               <autor> Martín Berasategui</autor>
               <editorial> Grijalbo</editorial>
         </libro>
+        
         <libro categoria="Novela">
               <titulo> El ingenioso hidalgo, Don Quijote de la Mancha</titulo>
               <autor> Miguel de Cervantes Saavedra</autor>
               <editorial> Ediciones Carena</editorial>
         </libro>
+        
        <libro categoria="Programación">
               <titulo> Clean Code</titulo>
               <autor> Robert Martín</autor>

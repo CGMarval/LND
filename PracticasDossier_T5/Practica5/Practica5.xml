@@ -1,8 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE libreria SYSTEM "/home/esteban/LND/libreria.dtd">
 <libreria>
         <libro>
               <titulo> Hábitos Atómicos</titulo>
               <autor> James Clear</autor>
+              <autor> Cameron Lear</autor>
               <editorial> Diana</editorial>
         </libro>
         <libro>

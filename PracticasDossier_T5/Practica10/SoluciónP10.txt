@@ -1,0 +1,1 @@
+Solución: son válidos el 1 y el 2. Esto sebe a que el (+) indica que el elemento debe aparecer al menos una vez o aparecer muchas veces. Mientras que el (?) indica que el elemento puede no aparecer o bien aparecer una única vez.

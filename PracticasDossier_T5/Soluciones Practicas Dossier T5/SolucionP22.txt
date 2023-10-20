@@ -1,0 +1,10 @@
+Crea mensajes.DTD. Guardará la gramática de un sistema de
+envío de mensajes. Cada mensaje está compuesto de un autor, uno o más
+destinatarios y un asunto. Todos contienen texto.
+    Además crea una entidad general interna que se llame “yo” y guarde tu
+nombre y apellidos. Crea otra entidad general interna que se llame “curso” que
+guarde el texto “Primero de Desarrollo de Aplicaciones Multiplataformas”.
+A continuación crea un fichero practica21.xml que guarde algunos mensajes.
+Al final de cada asunto utiliza las entidades “yo” y “curso”.
+
+Solución: Realizado en el documento Practica22.xml con una DTD interna, firmando al final de cada asunto, llamando a las entidades declaradas.

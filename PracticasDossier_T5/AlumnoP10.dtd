@@ -1,0 +1,4 @@
+
+<!ELEMENT Alumno (DNI?, Nombre+)>
+<!ELEMENT DNI (#PCDATA)>
+<!ELEMENT Nombre (#PCDATA)>

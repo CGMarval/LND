@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Alumno  SYSTEM "/home/esteban/LND/PracticasDossier_T5/AlumnoP8.dtd">
+
+<Alumno>
+	<Nombre>Iker Lopez</Nombre>
+	<Hermano>Ana Lopez </Hermano>
+	<Hermano>Eva Lopez</Hermano>
+	<Hermano>Alba Lopez</Hermano>
+</Alumno>

@@ -1,0 +1,36 @@
+Describe con tus palabras qué elementos se están definiendo y
+qué tipo de hijos pueden contener en las siguientes declaraciones de DTD:
+1.- <!ELEMENT LIBRO (Autor, Editorial)>
+2.- <!ELEMENT Autor (#PCDATA)>
+3.- <!ELEMENT PELICULA (Actor|Actriz|Director)+>
+4.- <!ELEMENT PELICULA ((Actor | Actriz)*, Director, Maquillaje?)>
+5.- <!ELEMENT PELICULA (#PCDATA | Actor)*>
+6.- <!ELEMENT PELICULA (Titulo, Genero, (Actor | Actriz | Narrador)*)>
+7.- <!ELEMENT FICHA (Nombre+, Apellido+, Direccion*, foto?,
+TelFijo*|TelMovil*)
+
+
+Solución:
+1.- <!ELEMENT LIBRO (Autor, Editorial)> 
+R: Se define que el elemento LIBRO contiene dos elementos (Autor y Editorial).
+
+2.- <!ELEMENT Autor (#PCDATA)> 
+R: Define el tipo de datos que va a contener el elemento Autor, #PCDATA: cadena de texto. 
+
+3.- <!ELEMENT PELICULA (Actor|Actriz|Director)+> 
+R: El elemento PELICULA contiene el elemento Actor y/o Actriz y/o Director pero al menos uno de ellos.
+
+4.- <!ELEMENT PELICULA ((Actor | Actriz)*, Director, Maquillaje?)> 
+R: El elemento PELICULA puede contener ambos, mas de uno de cada uno, o cualquiera de los dos o ninguno de los dos elementos Actor y Actriz, contiene además el elemento Director, y puede no contener o contener sólo un elemento Maquillaje. 
+
+5.- <!ELEMENT PELICULA (#PCDATA | Actor)*>
+R: El elemento PELICULA puede contener tantas cadenas de texto como elementos Actor o no contener ninguno de ambos.
+
+6.- <!ELEMENT PELICULA (Titulo, Genero, (Actor | Actriz | Narrador)*)>
+R: El elemento PELICULA debe tener un elemento "Titulo", "Genero", y todos, mas de uno de cada, o cualquera o ninguno de los siguientes elementos: Actor, Actriz y Narrador.
+
+7.- <!ELEMENT FICHA (Nombre+, Apellido+, Direccion*, foto?,
+TelFijo*|TelMovil*)
+R:El elemento FICHA contiene al menos uno o mas de elemento Nombre, al menos uno o mas de elemento Apellido, puede no tener o tener uno o mas elementos Direccion, y puede no tener o tener un solo elemento foto.
+
+

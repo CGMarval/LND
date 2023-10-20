@@ -1,0 +1,8 @@
+PRACTICA 01.- Crea un fichero xml para almacenar libros en venta en una
+librería. Comienza el fichero con la línea <?xml version=1.0”>.
+La librería se compone de libros. Cada libro tiene un autor, un título y una
+editorial.
+Abre el fichero en Internet Explorer. ¿Qué se muestra?
+
+Se muestra cada Elemento con su contenido y además con un desplegable el cual puede plegar o desplegar cada elemento que contiene dentro de sí.
+

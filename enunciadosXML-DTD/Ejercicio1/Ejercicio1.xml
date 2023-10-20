@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!-- New XML document created with EditiX XML Editor (http://www.editix.com) at Tue Oct 10 16:13:26 WEST 2023 -->
+
+
+<!DOCTYPE clase SYSTEM "clase.dtd">
+
+<clase>
+	<profesor>
+		<nombre>
+		</nombre>
+		
+		<apellidos>
+		</apellidos>
+	
+	</profesor>
+	
+	<alumno>
+		<nombre>
+		</nombre>
+		<apellidos>
+		</apellidos>
+	</alumno>
+	
+	<alumna>
+		<nombre>
+		</nombre>
+		<apellidos>
+		</apellidos>
+	</alumna>
+	
+</clase>

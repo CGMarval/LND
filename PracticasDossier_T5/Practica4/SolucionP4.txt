@@ -1,0 +1,19 @@
+Usando EditiX crea un nuevo archivo de tipo DTD y crea una
+gramática para nuestra librería. Está formada por libros y cada libro tiene un
+título, un autor y una editorial. Utiliza el ejemplo anterior para desarrollarla.
+Esta DTD trabajará con el fichero xml de la práctica 01 (no de la práctica 03).
+Agrega la línea de código para incluir en el xml la referencia a su DTD. Valida.
+Ahora la validación incluye que el elemento esté bien formado (código xml
+bien escrito) pero también si es un documento válido (cumple su DTD).
+
+
+Solución:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT libreria (libro+)>
+<!ELEMENT libro (titulo, autor,editorial)>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+

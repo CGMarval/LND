@@ -1,0 +1,19 @@
+Observando la siguiente DTD indica si es válido el código
+xml posterior:
+<!ELEMENT mietiqueta (#PCDATA)>
+<!ATTLIST mietiqueta
+AtribA CDATA #IMPLIED
+AtribB NMTOKEN #REQUIRED
+AtribC NMTOKENS #REQUIRED>
+Documento 1:
+<mietiqueta AtribB=”12.5”>Texto </mietiqueta>
+Documento 2:
+<mietiqueta AtribB=”12.5” AtribC=”3:16”>Texto </mietiqueta>
+Documento 3:
+<mietiqueta AtribA=”hola” AtribB=”12.5” AtribC=”3 6”>Texto </mietiqueta>
+Documento 4:
+<mietiqueta AtribA=”17:5” AtribB=”17,5” AtribC=”2 3”>Texto </mietiqueta>
+Documento 5:
+<mietiqueta AtribA=”aa” AtribB=”17 5” AtribC=”hola”>Texto </mietiqueta>
+
+Solución: son válidos el uno, el dos y el tres.

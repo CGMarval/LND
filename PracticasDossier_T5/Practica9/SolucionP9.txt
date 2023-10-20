@@ -1,0 +1,1 @@
+Solución: son válidos el 1, 2 y 4. El asterisco (*) en el elemento DNI en la DTD AlumnoP9 indica que el DNI puede no aparecer, aparecer una vez o aparecer muchas veces. Mientras que el símbolo más (+) en el elemento Nombre debe aparecer al menos una vez o aparecer muchas veces.

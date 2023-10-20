@@ -1,0 +1,18 @@
+Comenta con tus propias palabras qué se define en el siguiente
+extracto de una DTD:
+<!ELEMENT pelicula(titulo, writer+, productor+, director+, actor*,
+comentarios?)>
+<!ATTLIST pelicula
+tipo (drama | comedy | adventure | sci-fi | mistery | horror | romance |
+documentary)
+"drama"
+clasificacion (G | PG | PG-13 | R | X) "PG"
+review (1 | 2 | 3 | 4 | 5) "3"
+año CDATA #IMPLIED
+>
+
+Solución:
+Este extracto de DTD define que la entidad o elemento princial "pelicula" posee los siguientes elementos: un "titulo", al menos uno o varios "writer", al menos uno o varios "productor, al menos uno o varios "director", puede no tener, tener uno, o tener varios "actor", y tener sólo uno o no tener "comentarios.
+
+Luego define los siguientes atributos: "tipo" que sólo podrá tener uno de los siguientes valores (drama, comedy, adventure, sci-fi, mistery, horror, romance, documentary) y que en caso de no especificarlo siempre tendrá por defecto (drama). luego tiene el atributo "clasificacion"que sólo podrá tener uno de los siguientes valores (G, PG, PG-13, R, X) y en caso de no especificarlo tendrá por defecto el valor de (PG). el siguiente atributo "review" sólo podrá tener uno de los siguientes valores (1, 2, 3, 4, 5) y en caso de no ser especificado tendrá por defecto el valor de (3). Por último el atributo "año" tomará el valor introducido y es de caracter opcional, lo que quiere decir que no es obligatorio que aparezca.
+
